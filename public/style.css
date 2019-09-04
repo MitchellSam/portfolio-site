@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/assets/blue.jpg");
+    /* background-image: url("/assets/black.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-color: #ffffff;
+    
+    font-family: sans-serif;
+    color: white
+}
+  
+a {
+    text-decoration: none;
+    color: white
+}
+
+div {
+    border: 1px solid red;
+}
+
+#header {
+    /* position: -webkit-sticky; 
+    position: sticky; */
+    border: 1px solid green;
+    display: flex;
+    flex-direction: row
+}
+
