@@ -1,9 +1,10 @@
 * {
     box-sizing: border-box;
+    width: 100%
 }
 
 body {
-    background-image: url("/assets/blue.jpg");
+    /* background-image: url("/assets/blue.jpg"); */
     /* background-image: url("/assets/black.png"); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,22 +12,27 @@ body {
     background-color: #ffffff;
     
     font-family: sans-serif;
-    color: white
+    /* color: white */
 }
   
 a {
     text-decoration: none;
-    color: white
+    color: black
 }
 
 div {
-    border: 1px solid red;
+    outline: 1px solid red;
 }
 
 #header {
     /* position: -webkit-sticky; 
     position: sticky; */
-    border: 1px solid green;
+    outline: 5px solid green;
+    display: flex;
+    flex-direction: row
+}
+
+#intro {
     display: flex;
     flex-direction: row
 }
