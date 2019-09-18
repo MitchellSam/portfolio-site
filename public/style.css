@@ -4,3 +4,8 @@ a.anchor {
     top: -55px;
     visibility: hidden;
 }
+
+.jumbotron {
+    background-image: url("/assets/black.png");
+    background-size: cover;
+}

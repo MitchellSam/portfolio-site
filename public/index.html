@@ -49,18 +49,27 @@
       <div class="main">
 
         <!-- Home -->
-        <a class="anchor" name="home"></a>
-        <div>[Insert Slideshow?]</div>
+        <div class="jumbotron">
+          <h1 class="display-4 text-light">Hello, I'm Mitchell.</h1>
+          <p class="lead text-light">Software Engineer</p>
+          <hr class="my-4">
+          <p class="lead">
+            <a class="btn btn-light btn-lg" href="#about" role="button">About me</a>
+          </p>
+        </div>
 
         <!-- About -->
         <div class="about-container">
           <a class="anchor" name="about"></a>
-          <div id="portrait">[Insert picture here]</div>
-          <div id="bio">
-            <h2>Hello, I'm Mitchell.</h2>
-            <div>Past work experience, and exposure to different job roles has fueled my desire to switch to a more technical career and join a coding bootcamp. I am now a fullstack developer looking for a fulfilling career with many opportunities for continuous learning and self improvement.</div>
-            <div>Javascript, React, Redux, Sequelize, Express, Node, HTML, CSS, PostgreSQL, SQL, Git, Firebase, VBA, Bash, Agile, Kanban</div> 
-            <div>Knowledgeable: Heroku, Travis, Mocha, Chai, Jasmine, Mathematica, Python, R, Ruby, Webpack</div>    
+          <h2>About Me</h2>
+          <div class="media">
+            <img src="..." class="align-self-start mr-3" alt="...">
+            <div class="media-body">
+              <!-- <h5 class="mt-0">About Me</h5> -->
+              <p>Past work experience, and exposure to different job roles has fueled my desire to switch to a more technical career and join a coding bootcamp. I am now a fullstack developer looking for a fulfilling career with many opportunities for continuous learning and self improvement.</p>
+              <p>Javascript, React, Redux, Sequelize, Express, Node, HTML, CSS, PostgreSQL, SQL, Git, Firebase, VBA, Bash, Agile, Kanban</p> 
+              <p>Knowledgeable: Heroku, Travis, Mocha, Chai, Jasmine, Mathematica, Python, R, Ruby, Webpack</p>    
+            </div>
           </div>
         </div>
     
@@ -68,49 +77,47 @@
         <div class="portfolio-container">
           <a class="anchor" name="portfolio"></a>
           <h2>Projects</h2>
-  
-          <div class="portfolio-item" id="portfolio-1">
-            <div class="Portfolio-picture">[Insert picture here]</div>
-            <div class="portfolio-content">
-              <h3>Zero Patients</h3>
-              <div>Zero Patients is a digital recreation of the board game Pandemic built to allow multiple players to connect to the same game session. Development challenges included automating the game's complicated logic such as graph traversal and triggering cascading events.</div>
-              <ul>
-                <li>Responsible for developing React components for board tokens and UI elements, CSS design, database schema, and game logic methods such as player movement, adding and treating infections, and handling outbreaks.</li>
-                <li>Implemented using Node, Express, React, Firebase, Firestore, and Semantic UI.</li>
-              </ul>
-              <div>Demo Link</div>
-              <div>GitHub Link https://github.com/zero-patients/Pandemic.git</div>
-            </div>
-          </div>
-  
-          <div class="portfolio-item" id="portfolio-2">
-            <div class="Portfolio-picture">[Insert picture here]</div>
-            <div class="portfolio-content">
-              <h3>Squid Invaders</h3>
-              <div>Squid Invaders is a game inspired by Space Invaders and Asteroids and utilizes a physics based engine to handle collision detection.</div>
-              <ul>
-                <li>Makes use of Phaser, a framework for making 2D games in the browser using the HTML5 canvas. Development challenges included implementing state management in order to compartmentalize parts of the game into title, in-play, and win/loss screens.</li>
-                <li>Implemented using Node and Express.</li>
-              </ul>
-              <div>Demo Link</div>
-              <div>GitHub Link https://github.com/MitchellSam/stackathon-squid-invaders.git</div>
-            </div>
-          </div>
-  
-          <div class="portfolio-item" id="portfolio-3">
-            <div class="Portfolio-picture">[Insert picture here]</div>
-            <div class="portfolio-content">
-              <h3>Joke Shop</h3>
-              <div>Joke Shop is an E-commerce website for the buying and selling of joke books. The site features user registrations, login, credit card purchases, and submitting product reviews.</div>
-              <ul>
-                <li>Responsible for developing Express routes, APIs, React UI components, database schema, and Stripe functionality.</li>
-                <li>Implemented using Node, Express, React, Redux, PostgreSQL, Sequelize, Google OAuth, Stripe, Material-UI, and Heroku.</li>
-              </ul>
-              <div>Demo Link</div>
-              <div>GitHub Link https://github.com/GraceShopper5/jokeshop.git</div>
-            </div>
-          </div>
-  
+          <ul class="list-unstyled">
+            <li class="media my-4">
+              <img src="..." class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Zero Patients</h5>
+                <div>Zero Patients is a digital recreation of the board game Pandemic built to allow multiple players to connect to the same game session. Development challenges included automating the game's complicated logic such as graph traversal and triggering cascading events.</div>
+                <ul>
+                  <li>Responsible for developing React components for board tokens and UI elements, CSS design, database schema, and game logic methods such as player movement, adding and treating infections, and handling outbreaks.</li>
+                  <li>Implemented using Node, Express, React, Firebase, Firestore, and Semantic UI.</li>
+                </ul>
+                <div>Demo Link</div>
+                <div>GitHub Link https://github.com/zero-patients/Pandemic.git</div>
+              </div>
+            </li>
+            <li class="media">
+              <img src="..." class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Squid Invaders</h5>
+                <div>Squid Invaders is a game inspired by Space Invaders and Asteroids and utilizes a physics based engine to handle collision detection.</div>
+                <ul>
+                  <li>Makes use of Phaser, a framework for making 2D games in the browser using the HTML5 canvas. Development challenges included implementing state management in order to compartmentalize parts of the game into title, in-play, and win/loss screens.</li>
+                  <li>Implemented using Node and Express.</li>
+                </ul>
+                <div>Demo Link</div>
+                <div>GitHub Link https://github.com/MitchellSam/stackathon-squid-invaders.git</div>
+              </div>
+            </li>
+            <li class="media">
+              <img src="..." class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Joke Shop</h5>
+                <div>Joke Shop is an E-commerce website for the buying and selling of joke books. The site features user registrations, login, credit card purchases, and submitting product reviews.</div>
+                <ul>
+                  <li>Responsible for developing Express routes, APIs, React UI components, database schema, and Stripe functionality.</li>
+                  <li>Implemented using Node, Express, React, Redux, PostgreSQL, Sequelize, Google OAuth, Stripe, Material-UI, and Heroku.</li>
+                </ul>
+                <div>Demo Link</div>
+                <div>GitHub Link https://github.com/GraceShopper5/jokeshop.git</div>
+              </div>
+            </li>
+          </ul>
         </div>
     
         <!-- Work Exp -->
@@ -118,52 +125,51 @@
           <a class="anchor" name="work-exp"></a>
           <h3>Work Experience</h3>
 
-          <div class="work-exp-item" id="work-exp-1">
-            <div class="work-exp-picture">[Insert picture here]</div>
-            <div class="work-exp-content">
-              <h3>Business Analyst Consultant at Fannie Mae</h3>
-              <h4>Aug. 2016 to Dec. 2017</h4>
-              <h4>Washington, DC</h4>
-              <ul>
-                <li>Used Agile-Kanban methodology to deliver continuous improvement of our Loan Performance application. During this time the team was able to produce 50% more frequent updates over the regular quarterly schedule.</li>
-                <li>Wrote and ran SQL queries and UNIX bash scripts to perform hundreds of tests for research, data quality, and passing specifications for each release.</li>
-                <li>Produced, analyzed, and visualized data for over 30 different metrics in order to inform stakeholder decisions.</li>
-                <li>Automated production related tasks resulting in saving the company an estimated 100 man hours monthly.</li>
-                <li>Other software used: Microsoft Office Suite, Embarcadero DBArtisan, Tools for Oracle Application Development (TOAD), WinSCP, PuTTY, Oracle DB.</li>
-              </ul>
-            </div>
-          </div>
-  
-          <div class="work-exp-item" id="work-exp-2">
-            <div class="work-exp-picture">[Insert picture here]</div>
-            <div class="work-exp-content">
-              <h3>Database Technician at Amelotte International</h3>
-              <h4>Nov. 2014 to July 2015</h4>
-              <h4>New York, NY</h4>
-              <ul>
-                <li>Worked with a textiles and clothing manufacturer to develop a new database solution to track their financial data, automatically generate invoices, and generate reports. This resulted in reducing time, labor, and error associated with manual invoice processing.</li>
-                <li>Lead training sessions for database schema, architecture design, and data best practices for management and fellow coworkers.</li>
-                <li>Implemented using Microsoft Access and VBA.</li>
-              </ul>
-            </div>
-          </div>
-  
-          <div class="work-exp-item" id="work-exp-3">
-            <div class="work-exp-picture">[Insert picture here]</div>
-            <div class="work-exp-content">
-              <h3>Information Technology Specialist at Ascend Inc.</h3>
-              <h4>June 2013 to Apr. 2014</h4>
-              <h4>New York, NY</h4>
-              <ul>
-                <li>Performed IT support for the national office of a nonprofit organization and remote IT customer service for over 50 volunteer branches and over 5k registered members</li>
-                <li>Managed and updated the organization's website and membership database, using Your Membership's Membership Management Software.</li>
-                <li>Produced, analyzed, and visualized membership data metrics in order to inform marketing decisions.</li>
-                <li>Administrated online event registrations, ticket and membership purchases, and performed media distributions through targeted emails to more than 60k contacts on the organization's distribution lists.</li>
-                <li>Played a vital role during the acquisition of another organization by implementing a website redesign and by merging both organization's membership databases into a single normalized form.</li>
-              </ul>
-            </div>
-            
-          </div>
+          <ul class="list-unstyled">
+            <li class="media">
+              <img src="..." class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Business Analyst Consultant at Fannie Mae</h5>
+                <div>Aug. 2016 to Dec. 2017</div>
+                <div>Washington, DC</div>
+                <ul>
+                  <li>Used Agile-Kanban methodology to deliver continuous improvement of our Loan Performance application. During this time the team was able to produce 50% more frequent updates over the regular quarterly schedule.</li>
+                  <li>Wrote and ran SQL queries and UNIX bash scripts to perform hundreds of tests for research, data quality, and passing specifications for each release.</li>
+                  <li>Produced, analyzed, and visualized data for over 30 different metrics in order to inform stakeholder decisions.</li>
+                  <li>Automated production related tasks resulting in saving the company an estimated 100 man hours monthly.</li>
+                  <li>Other software used: Microsoft Office Suite, Embarcadero DBArtisan, Tools for Oracle Application Development (TOAD), WinSCP, PuTTY, Oracle DB.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="media my-4">
+              <img src="..." class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Database Technician at Amelotte International</h5>
+                <div>Nov. 2014 to July 2015</div>
+                <div>New York, NY</div>
+                <ul>
+                  <li>Worked with a textiles and clothing manufacturer to develop a new database solution to track their financial data, automatically generate invoices, and generate reports. This resulted in reducing time, labor, and error associated with manual invoice processing.</li>
+                  <li>Lead training sessions for database schema, architecture design, and data best practices for management and fellow coworkers.</li>
+                  <li>Implemented using Microsoft Access and VBA.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="media">
+              <img src="..." class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Information Technology Specialist at Ascend Inc.</h5>
+                <div>June 2013 to Apr. 2014</div>
+                <div>New York, NY</div>
+                <ul>
+                  <li>Performed IT support for the national office of a nonprofit organization and remote IT customer service for over 50 volunteer branches and over 5k registered members</li>
+                  <li>Managed and updated the organization's website and membership database, using Your Membership's Membership Management Software.</li>
+                  <li>Produced, analyzed, and visualized membership data metrics in order to inform marketing decisions.</li>
+                  <li>Administrated online event registrations, ticket and membership purchases, and performed media distributions through targeted emails to more than 60k contacts on the organization's distribution lists.</li>
+                  <li>Played a vital role during the acquisition of another organization by implementing a website redesign and by merging both organization's membership databases into a single normalized form.</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
         </div>
 
         <!-- Education -->
@@ -171,25 +177,25 @@
           <a class="anchor" name="education"></a>
           <h3>Education</h3>
 
-          <div class="education-item" id="education-1">
-            <div class="education-picture">[Insert picture here]</div>
-            <div class="education-content">
-              <h3>Fullstack Academy of Code</h3>
-              <h4>2018 to 2019</h4>
-              <h4>New York, NY</h4>
-              <div>Full-time Immersive Software Engineering Program in Web Development</div>
-            </div>
-          </div>
-
-          <div class="education-item" id="education-1">
-            <div class="education-picture">[Insert picture here]</div>
-            <div class="education-content">
-              <h3>SUNY Binghamton</h3>
-              <h4>2008 to 2013</h4>
-              <h4>New York, NY</h4>
-              <div>BS in Bioengineering and Biomedicdiv Engineering</div>
-            </div>
-          </div>
+          <ul class="list-unstyled">
+            <li class="media">
+              <img src="..." class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Fullstack Academy of Code</h5>
+                <div>2018 to 2019</div>
+                <div>New York, NY</div>
+                <div>Full-time Immersive Software Engineering Program in Web Development</div>
+              </div>
+            </li>
+            <li class="media my-4">
+              <img src="..." class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">SUNY Binghamton</h5>
+                <div>2008 to 2013</div>
+                <div>New York, NY</div>
+                <div>BS in Bioengineering and Biomedicdiv Engineering</div>
+              </div>
+            </li>
         </div>
 
       </div> <!-- /main -->
