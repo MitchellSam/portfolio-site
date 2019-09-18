@@ -1,39 +1,6 @@
-* {
-    box-sizing: border-box;
-    width: 100%
+a.anchor {
+    display: block;
+    position: relative;
+    top: -55px;
+    visibility: hidden;
 }
-
-body {
-    /* background-image: url("/assets/blue.jpg"); */
-    /* background-image: url("/assets/black.png"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    background-color: #ffffff;
-    
-    font-family: sans-serif;
-    /* color: white */
-}
-  
-a {
-    text-decoration: none;
-    color: black
-}
-
-div {
-    outline: 1px solid red;
-}
-
-#header {
-    /* position: -webkit-sticky; 
-    position: sticky; */
-    outline: 5px solid green;
-    display: flex;
-    flex-direction: row
-}
-
-#intro {
-    display: flex;
-    flex-direction: row
-}
-

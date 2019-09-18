@@ -1,0 +1,50 @@
+
+body, h1, h2, h3, h4, h5, h6 {
+    /* font-family: "Lato", sans-serif; */
+    /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
+    font-family: "Raleway", sans-serif;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    /* line-height: 1.8; */
+}
+
+div {
+    outline: 1px solid red;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: grey;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+}
+
+.header a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header a:hover {
+    /* background: green; */
+    text-decoration: underline;
+}
+
+.main {
+    margin-top: 200px;
+}
+
+.intro, .portfolio, .work-exp {
+    display: flex;
+    flex-direction: row
+}
