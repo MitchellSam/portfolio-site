@@ -29,7 +29,7 @@
     "@hapi/inert": "^5.2.0",
     "@hapi/joi": "^15.0.3",
     "@hapi/vision": "^5.5.2",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-plugin-emotion": "^10.0.9",
     "bcrypt": "^3.0.6",
     "emotion": "^10.0.9",
